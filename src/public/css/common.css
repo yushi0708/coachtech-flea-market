@@ -1,0 +1,100 @@
+html,
+body {
+    height: 100%;
+}
+
+.app {
+    flex-direction: column;
+    width: 1512px;
+    gap: 0px;
+    opacity: 0px;
+    height: 100%;
+}
+
+/* ヘッダー */
+.header {
+    display: flex;
+    width: 1515px;
+    height: 82px;
+    gap: 0px;
+    opacity: 0px;
+    background: #000000;
+    align-items: center;
+}
+
+.header__heading {
+    display: flex;
+    width: 370px;
+    height: 36px;
+    top: 22px;
+    left: 25px;
+    margin-left: 30px;
+}
+
+.header__heading--img-Logo {
+    width: 62.03px;
+    height: 36.01px;
+    left: 0px;
+}
+
+.header__heading--text {
+    display: flex;
+    justify-content: space-between;
+    width: 301.23px;
+    height: 34.81px;
+    top: 1.19px;
+    left: 68.76px;
+}
+.header__heading--img-C {
+    width: 30.35px;
+    height: 34.81px;
+    top: 1.19px;
+    left: 68.76px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header__heading--img-O {
+    width: 32.8px;
+    height: 34.81px;
+    top: 1.19px;
+    left: 103.66px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header__heading--img-A {
+    width: 32.66px;
+    height: 33.83px;
+    top: 1.68px;
+    left: 139.35px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header__heading--img-H {
+    width: 28.23px;
+    height: 33.83px;
+    top: 1.68px;
+    left: 211.46px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header__heading--img-T {
+    width: 27.85px;
+    height: 33.83px;
+    top: 1.68px;
+    left: 244.21px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header__heading--img-E {
+    width: 24.95px;
+    height: 33.83px;
+    top: 1.68px;
+    left: 276.56px;
+    gap: 0px;
+    opacity: 0px;
+}

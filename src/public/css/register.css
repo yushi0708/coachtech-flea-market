@@ -1,0 +1,98 @@
+.main {
+    width: 1515px;
+    height: 986px;
+}
+
+.register-form {
+    width: 680px;
+    height: 678px;
+    top: 178px;
+    margin-left: 416px;
+}
+
+.register-form__heading-content__heading {
+    width: 144px;
+    height: 47.58px;
+    margin-left: 257px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.register-form__inner {
+    margin-top: 48px;
+}
+
+.register-form__group {
+    margin-bottom: 32px;
+}
+
+.register-form__label {
+    width: 680px;
+    height: 35px;
+    top: 102px;
+    display: block;
+    margin-bottom: 8px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.register-form__input {
+    width: 680px;
+    height: 59px;
+    top: 137px;
+    gap: 0px;
+    border-radius: 4px;
+    border: 1px solid #5F5F5F;
+}
+
+.register-form__error-message {
+    color: #FF9494;
+}
+
+.register-form__btn {
+    margin: 60px auto 0;
+    width: 680px;
+    height: 65.25px;
+    top: 888px;
+    left: 417px;
+    border-radius: 5px;
+    border: 0;
+    background: #FF5555;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31.47px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.login-area {
+    width: 257px;
+    height: 53.29px;
+    margin-top: 43px;
+    margin-left: 261px;
+    }
+
+.link-login {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0073CC;
+}
