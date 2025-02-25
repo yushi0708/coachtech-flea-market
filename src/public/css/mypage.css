@@ -199,3 +199,42 @@
     text-decoration-skip-ink: none;
     color: #000000;
 }
+
+.mypage-profile-form__user-image-group {
+    width: 1017px;
+    height: 150px;
+    margin-top: 76px;
+    margin-left: 299px;
+    height: 150px;
+
+}
+
+.mypage-profile-form__user-image {
+    width: 150px;
+    height: 150px;
+    top: 233px;
+    border-radius: 50%;
+    background: #D9D9D9;
+}
+
+.user-image__edit-button {
+    width: 179px;
+    height: 49px;
+    top: 284px;
+    margin-left: 190px;
+    border-radius: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: #FFFFFF;
+    color: #FF5555;
+    border: 2px solid #FF5555;
+}
+
+.mypage-profile-form__error-message {
+    color: #FF9494;
+}

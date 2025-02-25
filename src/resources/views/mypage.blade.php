@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('css')
-<link rel="stylesheet" href="{{ asset('css/item.css')}}">
+<link rel="stylesheet" href="{{ asset('css/mypage.css')}}">
 @endsection
 
 @section('link')
@@ -19,10 +19,16 @@
 @section('content')
     <div class="main">
         <div class="mypage-profile-form__user-image-group">
-            <div class="commented-account">
-                <img src="{{ asset($comment->user->img) }}" alt="プロフィール画像">
-                <span class="commented-account-name">{{ $comment->user->name }}</span>
-            </div>
+            <label class="mypage-profile-form__label" for="user_image">
+                <img class="mypage-profile-form__user-image" id="user_img">
+            </label>
+            <input type="file" id="user_image" class="user_image" name="user_image" multiple accept="image/*" style="display:none" />
+            <button id="fileSelect" type="button" class="user-image__edit-button">画像を選択する</button>
+            <p class="mypage-profile-form__error-message">
+                @error('user_image')
+                    {{ $message }}
+                @enderror
+            </p>
         </div>
         <div class="mypage__list">
             <a class="item__list--recommendation" href="{{ asset('/')}}">おすすめ</a>

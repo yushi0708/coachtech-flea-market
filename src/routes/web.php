@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ItemController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,14 +16,12 @@ use App\Http\Controllers\ProductController;
 |
 */
 
-Route::get('/', [ProductController::class, 'getProducts']);
+Route::get('/', [ProductController::class, 'getProducts'])->name('item');
 Route::get('/product/{product_id}', [ProductController::class, 'getDetail']);
 Route::get('/login', [ProductController::class, 'login']);
-Route::get('/register', [ProductController::class, 'register']);
+Route::get('/register', [ProductController::class, 'register'])->name('register');
 Route::get('/mypage', [ProductController::class, 'mypage']);
 Route::get('/mypage/profile', [ProductController::class, 'mypage_profile']);
-
-
-Auth::routes();
+Route::post('/login', [AuthController::class, 'login'])->name('login');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
