@@ -1,7 +1,7 @@
 # COACHTECH フリーマーケット
 ## 環境構築
 ### Dockerビルド
-1. git clone git@github.com:yushi0708/Freshly-picked-form.git
+1. git clone git@github.com:yushi0708/coachtech-flea-market.git
 2. docker-compose up -d build
 
 ※ MySQLは、OSによって起動しない場合があるのでそれぞれのPCに合わせてdocker-compose.ymlファイルを編集して下さい。
@@ -15,7 +15,7 @@
 6. pht artisan db:seed
 
 ## ER図
-添付の　FRESHLY-PICKED-FORM.drawio.png　を参照して下さい。
+添付の　COACHTECH-FLEA-MARKET.drawio.png　を参照して下さい。
    
 ## 使用技術
 ・Laravel Framework 8.83.8
